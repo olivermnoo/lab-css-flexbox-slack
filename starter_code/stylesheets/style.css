@@ -8,3 +8,169 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Helvetica;
+}
+@media screen and (width < 768px) {
+  .navbar {
+    display: flex; /* ativa o modo flexbox nesse elemento " */
+    flex-direction: row; /* ordena os elementos um ao lado do outro, o Column alinha um embaixo do outro " */
+    width: 100%;
+    height: 50px;
+    background-color: #540b51; /* muda a cor do fundo " */
+    align-items: center; /* centraliza no meio no eixo y (vertical) " */
+    justify-content: space-between;
+    box-sizing: border-box; /* evitar que o padding + margim se somem, trava a caixa no valor exato definito em height" */
+    padding-top: 20px;
+  }
+  .navbar-logo {
+    width: 100px;
+    margin-left: 20px;
+  }
+  .navbar-1 {
+    width: auto;
+  }
+  .navbar-list-medium-screen {
+    display: none;
+  }
+  .navbar-2 {
+    align-items: flex-end;
+    margin: 0;
+    margin-right: 20px;
+  }
+  .navbar-icon-search {
+    width: auto;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+  }
+  .navbar-icon-menu {
+    background-color: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin-left: 10px;
+  }
+  .navbar-list-large-screen {
+    display: none;
+  }
+  .header-main {
+    text-align: center; /* centraliza texto no centro (vertical) */
+    display: flex; /* ativa o modo flexbox nesse elemento " */
+    flex-direction: column; /* ordena os elementos um embaixo do outro*/
+    background-color: #540b51;
+    color: white;
+  }
+  .header-h1 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 35px;
+  }
+  .header-p {
+    padding-bottom: 30px;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  #header-yellow-text {
+    font-weight: bold;
+    color: #ecb12f;
+    font-size: 16px;
+  }
+  .box-2-buttons {
+    border: none;
+    gap: 5px;
+  }
+  .header-button-email {
+    width: 90%;
+    font-size: 13px;
+    font-family: sans-serif;
+    height: 45px;
+    background-color: white;
+    color: #540b51;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .header-button-google {
+    width: 90%;
+    height: 45px;
+    padding: 0px;
+    margin-left: 5%;
+    background-color: #4285f4;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding-left: 7px;
+    gap: 10px;
+    align-items: center;
+    box-sizing: border-box; /* evitar que o padding + margim se somem, trava a caixa no valor exato definito em height" */
+  }
+
+  .header-icon-google {
+    margin: 0px;
+    height: 35px;
+    width: 35px;
+    border-radius: 5%;
+    background-color: white;
+  }
+  .header-text-google {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: sans-serif;
+  }
+  .header-img {
+    width: 620px;
+    position: static;
+    padding-top: 30px;
+  }
+  .main {
+    background-color: #f3eae2;
+  }
+  .main-text {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .main-container-logos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 30px;
+  }
+  .logos {
+    height: 40px;
+    margin: 10px;
+  }
+  .main-image-left {
+    justify-content: left;
+    height: 350px;
+  }
+  .main-image-right {
+    justify-content: right;
+    height: 350px;
+  }
+  .main-p {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .main-h2 {
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 15px;
+  }
+  .main-span {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
